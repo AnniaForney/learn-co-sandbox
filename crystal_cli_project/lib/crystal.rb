@@ -3,7 +3,9 @@ class Crystal
   
   @@all = []
 
-	def initialize 
+	def initialize(name)
+	  @name = name 
+	  @key_words, @meaning, @chakras, @element, @zodaic_sign = [] 
 	  @@all << self 
 	end 
 
