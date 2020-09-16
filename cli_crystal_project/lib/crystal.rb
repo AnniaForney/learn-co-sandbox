@@ -1,3 +1,0 @@
-class Crystal
-  
-end 
